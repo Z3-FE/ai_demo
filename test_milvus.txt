@@ -1,0 +1,1 @@
+Milvus is an open-source vector database built to power embedding similarity search and AI applications.

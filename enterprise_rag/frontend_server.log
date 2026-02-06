@@ -1,0 +1,15 @@
+npm warn config optional Use `--omit=optional` to exclude optional dependencies, or
+npm warn config `--include=optional` to include them.
+npm warn config
+npm warn config       Default value does install optional deps unless otherwise omitted.
+
+> frontend@0.0.0 dev
+> vite
+
+
+  VITE v7.3.1  ready in 935 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+19:01:19 [vite] (client) hmr update /src/Chat.jsx, /src/index.css

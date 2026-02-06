@@ -1,0 +1,1 @@
+Trae is an awesome AI IDE powered by ByteDance.

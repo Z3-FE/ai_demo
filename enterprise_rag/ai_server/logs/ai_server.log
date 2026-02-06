@@ -1,0 +1,32 @@
+INFO:     Started server process [52092]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+--- Milvus Service Init ---
+Target URI: http://localhost:19530
+Mode: Standalone/Cluster (Docker/K8s)
+Collection: enterprise_kb_v2
+---------------------------
+INFO:     127.0.0.1:52932 - "POST /rag/stream_chat HTTP/1.1" 200 OK
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1770289244.454034 2277249 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+I0000 00:00:1770289244.650904 2277249 fork_posix.cc:71] Other threads are currently calling into gRPC, skipping fork() handlers
+[Security Check] Current Request User ID: 2
+[Security Check] Checking Doc: Source=./temp_uploads/2_个人简历.pdf | UserID=2
+[Security Check] Checking Doc: Source=./temp_uploads/2_个人简历.pdf | UserID=2
+
+[RAG Debug] Query: 我的电话号？
+[RAG Debug] Retrieved 2 documents:
+  [1] Score: 0.39172190909552157 | Source: ./temp_uploads/2_个人简历.pdf | Content: 个人资料 姓 名 ：钟凯强 性 别 ：男 年 龄 ：2 7 电 话 ：16600248502 邮 箱...
+  [2] Score: 0.386206157067831 | Source: ./temp_uploads/2_个人简历.pdf | Content: 个人资料 姓 名 ：钟凯强 性 别 ：男 年 龄 ：2 7 电 话 ：16600248502 邮 箱...
+================================
+
+[History Debug] Received 0 history messages from Business Server.
+[Prompt Debug] Final Payload to LLM has 2 messages:
+  Msg[0] (system): 你是一个专业的企业级知识库助手。请根据提供的【背景信息】和【对话历史】来回应用户的【用户问题】。  ...
+  Msg[1] (human): 我的电话号？...
+INFO:     127.0.0.1:52975 - "POST /rag/stream_chat HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [52092]

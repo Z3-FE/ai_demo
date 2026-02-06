@@ -1,0 +1,105 @@
+{
+  "index_settings": {
+    "docstore_compression": "lz4",
+    "docstore_blocksize": 16384
+  },
+  "segments": [
+    {
+      "segment_id": "20e9c08c-f57d-4c22-b1e4-1bd0805ca1a6",
+      "max_doc": 10,
+      "deletes": null
+    },
+    {
+      "segment_id": "7fffa6a7-00b0-48b9-b2a4-e54b70830be1",
+      "max_doc": 1,
+      "deletes": null
+    },
+    {
+      "segment_id": "2be8c3a7-c269-4ea2-9cea-9b9e7aec05ae",
+      "max_doc": 1,
+      "deletes": null
+    },
+    {
+      "segment_id": "465f7f18-be76-4e92-b036-c014d2d1ca8f",
+      "max_doc": 1,
+      "deletes": null
+    },
+    {
+      "segment_id": "501bc90a-acd2-4832-8327-cd45fd442247",
+      "max_doc": 1,
+      "deletes": null
+    },
+    {
+      "segment_id": "b33665dc-3c04-46bc-9f0d-903db67759de",
+      "max_doc": 1,
+      "deletes": null
+    },
+    {
+      "segment_id": "7e12a4fa-6b16-4f6e-8faf-841b5bfba7ca",
+      "max_doc": 1,
+      "deletes": null
+    },
+    {
+      "segment_id": "ee9368aa-635d-40b9-b534-a04ff27e6aae",
+      "max_doc": 1,
+      "deletes": null
+    },
+    {
+      "segment_id": "e3eddb9f-e5be-4150-bc4c-d7e0393740d3",
+      "max_doc": 1,
+      "deletes": null
+    },
+    {
+      "segment_id": "73f7ca30-3895-40a1-975c-50e44fe67bcc",
+      "max_doc": 1,
+      "deletes": null
+    },
+    {
+      "segment_id": "ba35982c-0e41-4d23-a99e-55cfafafba67",
+      "max_doc": 1,
+      "deletes": null
+    }
+  ],
+  "schema": [
+    {
+      "name": "content",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "en_stem"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "metadata",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "user_id",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "stored": true,
+        "fast": false
+      }
+    }
+  ],
+  "opstamp": 40
+}
