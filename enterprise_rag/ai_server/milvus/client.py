@@ -92,5 +92,4 @@ class MilvusService:
             if "Connection refused" in str(e) or "Fail connecting" in str(e):
                 print("Tip: Please check if Milvus Docker container is running (docker-compose up -d).")
 
-# 单例模式
 milvus_service = MilvusService()
